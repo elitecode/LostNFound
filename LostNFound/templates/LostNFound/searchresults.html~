@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>Lost Something</title>
+</head>
+<body>
+	
+{% for l in lost %}
+	l.itemName<br>
+	{% for t in l.tag.all %}
+		t.tag 
+	{% endfor %}
+	l.desc<br>
+{% endfor %}
+
+</body>
+</html>

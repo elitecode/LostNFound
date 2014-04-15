@@ -1,0 +1,5 @@
+from django.contrib import admin
+
+#from LostNFound.models import Poll
+
+#admin.site.register(Poll)
